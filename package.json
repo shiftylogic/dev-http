@@ -1,0 +1,31 @@
+{
+  "name": "dev-http",
+  "version": "0.1.0",
+  "description": "A super simple web server.  Supply a path and go.  For dev purposes only.",
+
+  "main": "bin/server.js",
+  "bin": {
+    "dev-http": "bin/server.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiftylogic/dev-http.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shiftylogic/dev-http/issues"
+  },
+
+  "contributors": [
+    {
+      "name": "Robert Anderson",
+      "email": "robert@shiftylogic.com",
+      "url": "http://www.shiftylogic.com"
+    }
+  ],
+
+  "dependencies": {
+    "express": "^4.12.2",
+    "serve-static": "^1.9.1"
+  }
+}
