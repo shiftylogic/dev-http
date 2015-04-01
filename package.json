@@ -2,6 +2,7 @@
   "name": "dev-http",
   "version": "0.1.0",
   "description": "A super simple web server.  Supply a path and go.  For dev purposes only.",
+  "license": "MIT",
 
   "main": "bin/server.js",
   "bin": {
@@ -16,6 +17,7 @@
     "url": "https://github.com/shiftylogic/dev-http/issues"
   },
 
+  "homepage": "https://github.com/shiftylogic/dev-proxy",
   "contributors": [
     {
       "name": "Robert Anderson",
